@@ -12,12 +12,12 @@ const Login = {
   methods: {
     login() {
       const { username, password } = this.input;
-      if (username === "" && password === "") {
+      if (username === "testuser" && password === "test12345") {
         this.$emit("isAuthenticated", true);
         this.$router.replace({ name: "home" });
       } else {
         this.msg =
-          "username or password incorrect. For testing, leave the login input fields empty";
+          "Username or password incorrect. For testing, please enter 'testuser' as username and 'test12345' as password.";
       }
     },
     reset() {
