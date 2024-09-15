@@ -12,8 +12,8 @@ A self help community web application built using HTML, CSS, Bootstrap, and Vue.
 
 ## Technologies Used
 
-- HTML & CSS: Basic web structure and styling.
-- Bootstrap: Used for responsive design and layout.
+- HTML & CSS: Web structure and styling.
+- Bootstrap: Used for login page design and layout.
 - Vue.js: Reactive JavaScript framework for dynamic UI components.
 
 ## Project Status
@@ -21,6 +21,7 @@ A self help community web application built using HTML, CSS, Bootstrap, and Vue.
 This project is currently under development. Future enhancements include:
 
 - Connect the application data to a database for multi-user, real-time functionality.
+- Implement responsive design to ensure the app is adaptable to different screen sizes.
 - Implement follow, like, and share functionalities for posts.
 - Add CRUD functionalities for daily thoughts and daily challenges.
 - Write additional components for the socials and challenges pages.
